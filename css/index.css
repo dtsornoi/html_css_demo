@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  align-self: flex-start;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  margin: 0 0 1rem 0;
+  background-color: rgba(93, 165, 152, 0.5);
+}
+.navigation a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navigation a:hover {
+  color: darkred;
+}
+
+.shadow_container {
+  padding: 1rem;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container {
+  margin: 0 0 0 5%;
+}
+
+.welcome_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+@media (max-width: 992px) {
+  .welcome_header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.background_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.skills_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills_level {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.worked_at {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table, tr, td, th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+table th, table td, tr th, tr td, td th, td td, th th, th td {
+  padding: 0.5rem;
+}
+table tr:nth-of-type(even), tr tr:nth-of-type(even), td tr:nth-of-type(even), th tr:nth-of-type(even) {
+  background-color: rgba(93, 165, 152, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label, input {
+  margin: 0.5rem 0;
+}
+
+input, textarea {
+  border: 1px solid grey;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+}
+
+.submit {
+  background-color: #5da598;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+/*# sourceMappingURL=index.css.map */
